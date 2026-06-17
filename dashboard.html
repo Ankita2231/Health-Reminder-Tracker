@@ -1,0 +1,63 @@
+<body>
+<div class="container">
+
+    <h1>Health Reminder & Tracker </h1>
+
+    <div class="summary">
+        <h2>Today's Summary</h2>
+        <p id="summary">
+            Water Intake: 0
+        </p>
+    </div>
+
+
+<div class="card">
+    <h2>💧 Water Intake</h2>
+    <button onclick="addWater()">
+         Drink Water
+    </button>
+    
+    <p id="waterCount">
+       0 Glasses
+    </p>
+</div>    
+
+
+
+<div class="card">
+    <h2> 🏃Exercise Tracker</h2>
+    
+    <input type="text" id="exercise">
+
+    <button onclick="addExercise()">
+       Add
+    </button>
+
+<ul id="exerciseList"></ul>
+</div>
+
+
+<div class="card">
+    <h2> 💊 Medicine Reminder Section</h2>
+
+    <input type="text" id="medicine">
+
+    <input type="time" id="time">
+
+    <button onclick="saveMedicine()">
+        Save
+    </button>
+
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 Health Reminder Tracker</p>
+</footer>
+
+<link rel="stylesheet" href="style.css">
+
+</body>
+
+<script src="script.js"></script>
